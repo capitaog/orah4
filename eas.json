@@ -3,7 +3,7 @@
     "production": {
       "android": {
         "buildType": "apk",
-        "withoutCredentials": false
+        "withoutCredentials": true
       }
     }
   }
