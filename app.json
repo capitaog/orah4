@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "fodase",
-    "slug": "orah4",
+    "slug": "fodase",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "platforms": ["android"],
-    "sdkVersion": "50.0.0",
+    "sdkVersion": "52.0.0",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -26,11 +26,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "d5572e35-f835-4811-b3ad-7a15d2693c29"
-      }
     }
   }
 }
