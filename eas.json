@@ -1,10 +1,18 @@
 {
+  "cli": {
+    "version": ">= 3.15.0",
+    "appVersionSource": "package.json"
+  },
   "build": {
     "production": {
+      "developmentClient": false,
+      "distribution": "internal",
       "android": {
-        "buildType": "apk",
-        "withoutCredentials": true
+        "buildType": "apk"
       }
     }
+  },
+  "submit": {
+    "production": {}
   }
 }
